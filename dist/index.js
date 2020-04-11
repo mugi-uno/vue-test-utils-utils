@@ -1,7 +1,6 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.func = function () {
-    return "aaa";
-};
+var tslib_1 = require("tslib");
+tslib_1.__exportStar(require("./useAdditionalFinder"), exports);
 //# sourceMappingURL=index.js.map
