@@ -1,0 +1,9 @@
+{
+  "name": "vue-test-utils-utils",
+  "version": "1.0.0",
+  "description": "Utilities fro vue-test-utils",
+  "main": "dist/index.js",
+  "repository": "ssh://git@github.com/mugi-uno/vue-test-utils-utils.git",
+  "author": "mugi-uno <mugi.uno@gmail.com>",
+  "license": "MIT"
+}
