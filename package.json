@@ -5,5 +5,17 @@
   "main": "dist/index.js",
   "repository": "ssh://git@github.com/mugi-uno/vue-test-utils-utils.git",
   "author": "mugi-uno <mugi.uno@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^4.0.0",
+    "rollup": "^2.6.0",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "vue-test-utils": "^1.0.0-beta.11"
+  }
 }
